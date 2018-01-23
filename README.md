@@ -49,7 +49,7 @@ $ yum install google-chrome-stable -y
 ```
 
 ### Running disable_jira_user script
-```python
+```sh
 $ python3 disable_jira_user.py --user myname
 ```
 
@@ -60,5 +60,6 @@ WEB_DRIVER_HOME = Location for extracted ChromeDriver
 USER = JIRA Admin User
 PASS = JIRA Admin Password
 
-This Application can be run in either headless or non-headless mode. Default mode is headless
+This Application can be run in either headless or non-headless mode. Default mode is headless.
+This Application has been tested on Centos 7/RHEL7 against JIRA 7.5.0
 ```
