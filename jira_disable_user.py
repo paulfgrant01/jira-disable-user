@@ -11,7 +11,7 @@ JIRA_SERVER = environ['JIRA_SERVER']
 def main():
     """ Main """
     args = parse_args()
-    selenium = Selenium(headless=False)
+    selenium = Selenium()
     set_jira_user_inactive(selenium.driver, selenium, args.user)
 
 
